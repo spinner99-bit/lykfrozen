@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LYK Frozen Food - Fresh Frozen, Quality Guaranteed</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="header-content">
+			<img src="Logo.png" alt="LYK Frozen Food">
+			<div class="cart-icon" onclick="toggleCart()">
+				🛒 <span id="cart-count">0</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="hero-section">
+		<h1>Fresh Frozen Food, Quality Guaranteed</h1>
+		<p>Premium ingredients, advanced freezing technology, delivering the freshest frozen food for you</p>
+	</div>
+
+	<div class="container">
+		<div class="products-section">
+			<h2>Our Products</h2>
+			<div class="products-grid" id="products-grid"></div>
+		</div>
+	</div>
+
+	<div class="cart-sidebar" id="cart-sidebar">
+		<div class="cart-header">
+			<h3>Shopping Cart</h3>
+			<button class="close-cart" onclick="toggleCart()">×</button>
+		</div>
+		<div class="cart-items" id="cart-items"></div>
+		<div class="cart-footer">
+			<div class="cart-total">
+				<strong>Total: MYR <span id="cart-total">0.00</span></strong>
+			</div>
+			<button class="checkout-btn" onclick="checkout()">Checkout</button>
+		</div>
+	</div>
+
+	<div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer-content">
+			<div class="footer-section">
+				<h3>Contact Details</h3>
+				<p>csfrozen1588@gmail.com</p>
+			</div>
+			<div class="footer-section">
+				<h3>Operating Hours</h3>
+				<p>Mon-Fri: 8.30 am to 5.00 pm</p>
+				<p>Saturday: 9.30 am to 1:00 pm</p>
+				<p>Sunday: Closed</p>
+			</div>
+		</div>
+		<div class="footer-content">
+			<div class="footer-section">
+				<h3>Call Us Now</h3>
+				<p class="phone-number">03 - 8080 1588</p>
+			</div>
+			<!-- <div class="footer-section">
+				<h3>Social Media</h3>
+				<div class="social-links">
+					<a href="#" class="social-link">Facebook</a>
+					<a href="#" class="social-link">Instagram</a>
+					<a href="#" class="social-link">WhatsApp</a>
+				</div>
+			</div> -->
+		</div>
+		<div class="footer-divider"></div>
+		<div class="footer-bottom">
+			<p>&copy; copyright 2025. All Rights Reserved. Web Designed By LYK Frozen Food</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
