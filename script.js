@@ -83,6 +83,69 @@ const products = [
         price: 69.50,
         category: "Instant & Dry Food"
     },
+    {
+        id: 13,
+        name: "ML SOTONG PASTE 1KG",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 17.90,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 14,
+        name: "AYAM BRAND SARDINES IN OMATO SAUCE 425G",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 6.99,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 15,
+        name: "RAMLY BURGER AYAM 70GM",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 8.50,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 16,
+        name: "RAMLY BURGER LEMBU 70GM",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 11.50,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 17,
+        name: "RAMLY NUGET AYAM SALUTAN TEMPURA",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 20.80,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 18,
+        name: "RAMLY NUGET AYAM 1KG",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 19.80,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 19,
+        name: "MURTABAK RAJA FROZEN KELANTAN",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 24.50,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 20,
+        name: "FROZEN MIXED BERRIES 500G",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 24.50,
+        category: "Instant & Dry Food"
+    },
+    {
+        id: 21,
+        name: "SINGLES SOSIS KEJU 65G",
+        description: "INSTANT & DRY FOOD, OTHER",
+        price: 4.99,
+        category: "Instant & Dry Food"
+    },
 ];
 
 let cart = [];

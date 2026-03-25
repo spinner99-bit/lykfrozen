@@ -156,6 +156,7 @@ body {
 	margin-bottom: 15px;
 	font-size: 0.95rem;
 	line-height: 1.5;
+	display: none;
 }
 
 .product-price {
